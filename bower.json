@@ -1,0 +1,23 @@
+{
+  "name": "ngmono",
+  "description": "a project by angularJS nodeJS mongoDB",
+  "main": "app.js",
+  "authors": [
+    "Ev2le0"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularJS",
+    "nodeJS",
+    "mongoDB"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
+}
