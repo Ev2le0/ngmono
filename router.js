@@ -14,7 +14,7 @@ var config = require('./config');
 var router = express.Router();
 // home page
 router.get("/",function(req,res) {
-    res.render('index');
+    res.render('index',{user:'',title:'你好,ngmono',message:'假行僧',body:'崔健'});
 });
 
 module.exports = router;
