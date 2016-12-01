@@ -13,6 +13,8 @@ var user = require('./controllers/user');
 var config = require('./config');
 var router = express.Router();
 // home page
-//router.get('/', site.index);
+router.get("/",function(req,res) {
+    res.render('index');
+});
 
 module.exports = router;

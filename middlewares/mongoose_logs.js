@@ -3,7 +3,7 @@ var logger = require('../common/logger');
 var config = require('../config');
 
 if(config.debug){
-    var tarceMQuery = function(method,info,query){
+    var traceMQuery = function(method,info,query){
         return function(err,result,millis){
             if(err){
                 logger.error('traceMQuery error:',err);

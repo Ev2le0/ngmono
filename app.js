@@ -42,13 +42,13 @@ if(config.debug){
 }
 app.use('/public',express.static(staticDir));
 
-app.use(require('response-time'));
+app.use(require('response-time')());
 app.use(bodyParser.json({limit:'1mb'}));
 app.use(bodyParser.urlencoded({extended:true,limit:'1mb'}));
 app.use(require('method-override')());
 app.use(require('cookie-parser')(config.session_secret));
 app.use(session({
-    secret:config.session_secret,
+    secret:'ngmono',
     store:new RedisStore({
         port:config.redis_port,
         host:config.redis_host,
@@ -56,7 +56,7 @@ app.use(session({
         pass:config.redis_passwrod,
     }),
     resave:false,
-    saveUninitialized:true,
+    saveUninitialized:false,
 }));
 
 // set static, dynamic helpers
@@ -83,7 +83,7 @@ if(config.debug){
 }
 
 if(!module.parent){
-    app.listen(config.port,function(){
+    app.listen(5000,function(){
         logger.info('project is listening on port:',config.port);
     });
 }

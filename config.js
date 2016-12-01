@@ -17,6 +17,7 @@ var config = {
     redis_db:0,
     redis_passwrod:'',
     //程序运行端口
-    port:3000,
+    port:5000,
     session_secret:'ngmono',
 };
+module.exports = config;

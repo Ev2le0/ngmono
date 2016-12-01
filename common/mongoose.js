@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var config = require('../config');
 var logger = require('./logger');
-mongoose.connect(config.db,{
+mongoose.connect('mongodb://localhost/test',{
     server:{poolSize:20}
 },function(err){
     if(err){
