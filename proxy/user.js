@@ -25,3 +25,18 @@ exports.newAndSave = function(loginname,pass,callback){
     user.pass = pass;
     user.save(callback);
 };
+
+/**
+ * 根据用户ID，查找用户
+ * Callback:
+ * - err, 数据库异常
+ * - user, 用户
+ * @param {String} id 用户ID
+ * @param {Function} callback 回调函数
+ */
+exports.getUserById = function (uid, callback) {
+    if(!uid){
+        return callback();
+    }
+    User.findOne({_id:uid},callback);
+};

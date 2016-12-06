@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var UserModel = mongoose.model('User');
 var UserProxy = require('../proxy').User;
 var config = require('../config');
+var eventproxy = require('eventproxy');
 /*
  * 需要登录才能进行相应的操作
  * */
@@ -34,3 +35,33 @@ exports.generate_session = function(user,res){
     };
     res.cookie(config.auth_cookie_name, auth_token, opts); //cookie 有效期30天
 };
+
+//验证用户是否登录
+exports.authUser = function(req,res,next){
+    var ep = new eventproxy();
+    ep.fail(next);
+
+    // Ensure current_user always has defined.
+    res.locals.current_user = null;
+
+    ep.all('get_user',function(user){
+        if(!user){
+            return next();
+        }
+        user = res.locals.current_user = req.session.user = new UserModel(user);
+        next();
+        //console.log(res.locals);
+        //process.exit(1);
+    });
+    if(req.session.user){
+        ep.emit('get_user',req.session.user);
+    }else{
+        var auth_token = req.signedCookies[config.auth_cookie_name];
+        if(!auth_token){
+            return next();
+        }
+        var auth = auth_token.split('$$$$');
+        var user_id = auth[0];
+        UserProxy.getUserById(user_id,ep.done('get_user'));
+    }
+}

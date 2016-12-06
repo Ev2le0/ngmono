@@ -19,7 +19,7 @@ router.get("/login",function(req,res) {
 });
 router.post("/login",sign.signin);
 router.get("/reg",function(req,res) {
-    res.render('reg',{user:'',title:'注册',});
+    res.render('reg',{user:'',title:'注册'});
 });
 router.post("/reg",sign.signup);
 router.get('/logout', sign.logout);  // 登出

@@ -10,6 +10,7 @@ require('./middlewares/mongoose_logs');//mongodb 查询日志
 require('./models');
 var errorPageMiddleware = require('./middlewares/error_page');
 var proxyMiddleware = require('./middlewares/proxy');
+var auth = require('./middlewares/auth');
 var RedisStore = require('connect-redis')(session);
 var _ = require('lodash');
 var router = require('./router');
@@ -28,6 +29,7 @@ app.engine('html', require('ejs-mate'));
 app.locals._layoutFile = 'layout.html';
 app.enable('trust proxy');
 
+// custom middleware
 //Request logger 请求时间
 app.use(requestLog);
 if(config.debug){
@@ -57,6 +59,8 @@ app.use(session({
     resave:false,
     saveUninitialized:false,
 }));
+
+app.use(auth.authUser);
 
 // set static, dynamic helpers
 // assets

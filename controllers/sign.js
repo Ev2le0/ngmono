@@ -38,7 +38,7 @@ exports.signin = function(req,res,next){
             //store session cookie
             authMiddleware.generate_session(user,res);
             //after login success redirect to index
-            res.render('index',{title:'首页',user:user});
+            res.redirect('/');
         }));
     });
 };
