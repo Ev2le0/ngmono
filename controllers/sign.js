@@ -16,11 +16,11 @@ exports.signin = function(req,res,next){
     ep.fail(next);
     if(!loginname || !pwd){
         res.status(422);
-        return res.render('login', {error: '信息不完整。',title:'登录',user:'' });
+        return res.render('login', {error: '信息不完整。',title:'登录'});
     }
     ep.on('login_error',function(login_error){
         res.status(403);
-        res.render('login',{error:'用户名或密码错误',title:'登录',user:''});
+        res.render('login',{error:'用户名或密码错误',title:'登录'});
     });
 
     User.getUserByLoginName(loginname,function(err,user){

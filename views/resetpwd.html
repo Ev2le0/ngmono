@@ -1,7 +1,7 @@
 
 <form class="form-horizontal" method="post">
 <fieldset>
-    <legend>用户登录</legend>
+    <legend>修改密码</legend>
     <div class="control-group">
         <% if(typeof(error) !== 'undefined' && error){ %>
         <div class="alert alert-error">
@@ -12,18 +12,22 @@
         <label class="control-label" for="username">用户名</label>
         <div class="controls">
             <input type="text" class="input-xlarge" id="username" name="username">
-            <p class="help-block">你的账户名称，用户登录和提示</p>
         </div>
     </div>
     <div class="control-group">
-        <label class="control-label" for="password">密码</label>
+        <label class="control-label" for="password">原密码</label>
         <div class="controls">
             <input type="password" class="input-xlarge" id="password" name="password">
         </div>
     </div>
+    <div class="control-group">
+        <label class="control-label" for="password">新密码</label>
+        <div class="controls">
+            <input type="password" class="input-xlarge" id="new_password" name="new_password">
+        </div>
+    </div>
      <div class="form-actions">
-        <button type="submit" class="btn btn-primary">登录</button>
-         <a href="/resetpwd"><small class="margin-left:100px;">修改密码</small></a>
+        <button type="submit" class="btn btn-primary">提交</button>
      </div>
 </fieldset>
 </form>

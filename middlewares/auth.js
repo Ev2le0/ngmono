@@ -7,9 +7,10 @@ var eventproxy = require('eventproxy');
  * 需要登录才能进行相应的操作
  * */
 exports.userRequired = function(req,res,next){
-    if(!req.session || !req.session.user || req.session.user._id){
+    if(!req.session || !req.session.user || !req.session.user._id){
         return res.redirect('/login');
     }
+    next();
 };
 
 /*
@@ -50,8 +51,6 @@ exports.authUser = function(req,res,next){
         }
         user = res.locals.current_user = req.session.user = new UserModel(user);
         next();
-        //console.log(res.locals);
-        //process.exit(1);
     });
     if(req.session.user){
         ep.emit('get_user',req.session.user);

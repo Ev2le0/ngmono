@@ -2085,3 +2085,434 @@ Started 2016-12-01T06:29:56.327Z GET / ::ffff:127.0.0.1
 [2016-12-06 16:29:18.243] [INFO] cheese - Started 2016-12-06T08:29:18.243Z GET / ::ffff:127.0.0.1
 [2016-12-06 16:29:18.252] [INFO] cheese - Render view index undefined
 [2016-12-06 16:29:18.254] [INFO] cheese - Completed 304 undefined
+[2016-12-06 16:31:16.267] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 16:31:18.207] [INFO] cheese - Started 2016-12-06T08:31:18.206Z GET / ::ffff:127.0.0.1
+[2016-12-06 16:31:18.245] [INFO] cheese - Render view index undefined
+[2016-12-06 16:31:18.248] [INFO] cheese - Completed 304 undefined
+[2016-12-06 16:31:20.919] [INFO] cheese - Started 2016-12-06T08:31:20.919Z GET / ::ffff:127.0.0.1
+[2016-12-06 16:31:20.943] [INFO] cheese - Render view index undefined
+[2016-12-06 16:31:20.944] [INFO] cheese - Completed 304 undefined
+[2016-12-06 17:06:41.721] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:06:57.793] [INFO] cheese - Started 2016-12-06T09:06:57.792Z GET / ::ffff:127.0.0.1
+[2016-12-06 17:06:57.843] [INFO] cheese - Render view index undefined
+[2016-12-06 17:06:57.847] [INFO] cheese - Completed 304 undefined
+[2016-12-06 17:07:04.261] [INFO] cheese - Started 2016-12-06T09:07:04.261Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:07:04.279] [INFO] cheese - Render view say undefined
+[2016-12-06 17:07:04.281] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:22:51.954] [INFO] cheese - Started 2016-12-06T09:22:51.954Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:22:51.968] [INFO] cheese - Render view say undefined
+[2016-12-06 17:22:51.970] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:23:25.122] [INFO] cheese - Started 2016-12-06T09:23:25.121Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:23:25.141] [INFO] cheese - Render view say undefined
+[2016-12-06 17:23:25.149] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:23:50.155] [INFO] cheese - Started 2016-12-06T09:23:50.155Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:23:50.169] [INFO] cheese - Render view say undefined
+[2016-12-06 17:23:50.171] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:26:24.787] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:26:39.127] [INFO] cheese - Started 2016-12-06T09:26:39.125Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:26:39.204] [INFO] cheese - Render view say undefined
+[2016-12-06 17:26:39.209] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:27:56.732] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:27:56.843] [INFO] cheese - Started 2016-12-06T09:27:56.842Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:27:56.914] [INFO] cheese - Render view say undefined
+[2016-12-06 17:27:56.924] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:28:27.139] [INFO] cheese - Started 2016-12-06T09:28:27.139Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:28:27.163] [INFO] cheese - Render view say undefined
+[2016-12-06 17:28:27.166] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:29:15.943] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:30:13.213] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:30:31.874] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:30:34.230] [INFO] cheese - Started 2016-12-06T09:30:34.229Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:30:34.298] [INFO] cheese - Render view say undefined
+[2016-12-06 17:30:34.305] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:30:48.760] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:31:15.922] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:31:18.439] [INFO] cheese - Started 2016-12-06T09:31:18.438Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:31:18.485] [INFO] cheese - Render view say undefined
+[2016-12-06 17:31:18.500] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:31:36.683] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:31:37.315] [INFO] cheese - Started 2016-12-06T09:31:37.314Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:31:37.364] [INFO] cheese - Render view say undefined
+[2016-12-06 17:31:37.369] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:31:53.675] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:32:02.719] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:32:22.841] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:32:25.215] [INFO] cheese - Started 2016-12-06T09:32:25.213Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:32:25.280] [INFO] cheese - Render view say undefined
+[2016-12-06 17:32:25.284] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:32:26.516] [INFO] cheese - Started 2016-12-06T09:32:26.515Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:32:26.531] [INFO] cheese - Render view say undefined
+[2016-12-06 17:32:26.534] [INFO] cheese - Completed 304 undefined
+[2016-12-06 17:32:43.709] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:32:54.519] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:32:58.302] [INFO] cheese - Started 2016-12-06T09:32:58.301Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:32:58.361] [INFO] cheese - Render view say undefined
+[2016-12-06 17:32:58.365] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:35:56.139] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:36:07.130] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:36:09.713] [INFO] cheese - Started 2016-12-06T09:36:09.711Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:36:09.757] [INFO] cheese - Render view say undefined
+[2016-12-06 17:36:09.760] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:37:40.425] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:37:47.414] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:37:54.388] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:38:01.914] [INFO] cheese - Started 2016-12-06T09:38:01.912Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:38:01.979] [INFO] cheese - Render view say undefined
+[2016-12-06 17:38:01.983] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:38:27.490] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:38:34.680] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:38:41.860] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:38:42.103] [INFO] cheese - Started 2016-12-06T09:38:42.102Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:38:42.170] [INFO] cheese - Render view say undefined
+[2016-12-06 17:38:42.173] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:38:58.379] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:39:06.003] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:39:08.298] [INFO] cheese - Started 2016-12-06T09:39:08.297Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:39:08.337] [INFO] cheese - Render view say undefined
+[2016-12-06 17:39:08.340] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:39:55.649] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:39:59.290] [INFO] cheese - Started 2016-12-06T09:39:59.289Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:39:59.332] [INFO] cheese - Render view say undefined
+[2016-12-06 17:39:59.337] [INFO] cheese - Completed 304 undefined
+[2016-12-06 17:42:17.608] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:42:20.063] [INFO] cheese - Started 2016-12-06T09:42:20.062Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:42:20.106] [INFO] cheese - Render view say undefined
+[2016-12-06 17:42:20.111] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:43:12.780] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:43:14.295] [INFO] cheese - Started 2016-12-06T09:43:14.293Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:43:14.357] [INFO] cheese - Render view say undefined
+[2016-12-06 17:43:14.361] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:44:28.352] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:44:29.976] [INFO] cheese - Started 2016-12-06T09:44:29.974Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:44:30.026] [INFO] cheese - Render view say undefined
+[2016-12-06 17:44:30.030] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:44:48.940] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:44:50.100] [INFO] cheese - Started 2016-12-06T09:44:50.099Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:44:50.147] [INFO] cheese - Render view say undefined
+[2016-12-06 17:44:50.151] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:46:00.870] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:46:08.118] [INFO] cheese - Started 2016-12-06T09:46:08.117Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:46:08.177] [INFO] cheese - Render view say undefined
+[2016-12-06 17:46:08.181] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:46:29.812] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:46:32.942] [INFO] cheese - Started 2016-12-06T09:46:32.941Z GET /say ::ffff:127.0.0.1
+[2016-12-06 17:46:32.983] [INFO] cheese - Render view say undefined
+[2016-12-06 17:46:33.329] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:52:06.191] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:52:09.023] [INFO] cheese - Started 2016-12-06T09:52:09.022Z GET /post ::ffff:127.0.0.1
+[2016-12-06 17:52:09.047] [INFO] cheese - Render view post undefined
+[2016-12-06 17:52:09.079] [INFO] cheese - Completed 500 undefined
+[2016-12-06 17:52:35.760] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:52:37.249] [INFO] cheese - Started 2016-12-06T09:52:37.248Z GET /post ::ffff:127.0.0.1
+[2016-12-06 17:52:37.277] [INFO] cheese - Render view posts undefined
+[2016-12-06 17:52:37.312] [INFO] cheese - Completed 500 undefined
+[2016-12-06 17:53:27.854] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:53:28.553] [INFO] cheese - Started 2016-12-06T09:53:28.552Z GET /post ::ffff:127.0.0.1
+[2016-12-06 17:53:28.593] [INFO] cheese - Render view posts undefined
+[2016-12-06 17:53:28.620] [INFO] cheese - Completed 500 undefined
+[2016-12-06 17:53:53.201] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:53:56.234] [INFO] cheese - Started 2016-12-06T09:53:56.233Z GET /post ::ffff:127.0.0.1
+[2016-12-06 17:53:56.279] [INFO] cheese - Render view posts undefined
+[2016-12-06 17:53:56.313] [INFO] cheese - Completed 500 undefined
+[2016-12-06 17:54:26.076] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:54:27.247] [INFO] cheese - Started 2016-12-06T09:54:27.247Z GET /post ::ffff:127.0.0.1
+[2016-12-06 17:54:27.288] [INFO] cheese - Render view posts undefined
+[2016-12-06 17:54:27.303] [INFO] cheese - Completed 200 undefined
+[2016-12-06 17:58:36.570] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 17:58:38.713] [INFO] cheese - Started 2016-12-06T09:58:38.712Z GET /post ::ffff:127.0.0.1
+[2016-12-06 17:58:38.759] [INFO] cheese - Render view posts undefined
+[2016-12-06 17:58:38.766] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:11:36.688] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:11:38.502] [INFO] cheese - Started 2016-12-06T10:11:38.501Z GET /post ::ffff:127.0.0.1
+[2016-12-06 18:11:38.544] [INFO] cheese - Render view posts undefined
+[2016-12-06 18:11:38.547] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:12:40.775] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:12:44.302] [INFO] cheese - Started 2016-12-06T10:12:44.301Z GET /post ::ffff:127.0.0.1
+[2016-12-06 18:12:44.354] [INFO] cheese - Render view posts undefined
+[2016-12-06 18:12:44.362] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:14:01.891] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:14:03.508] [INFO] cheese - Started 2016-12-06T10:14:03.507Z GET /post ::ffff:127.0.0.1
+[2016-12-06 18:14:03.560] [INFO] cheese - Render view posts undefined
+[2016-12-06 18:14:03.565] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:15:51.704] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:15:52.881] [INFO] cheese - Started 2016-12-06T10:15:52.880Z GET /post ::ffff:127.0.0.1
+[2016-12-06 18:15:52.932] [INFO] cheese - Render view posts undefined
+[2016-12-06 18:15:52.945] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:17:44.213] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:17:45.643] [INFO] cheese - Started 2016-12-06T10:17:45.642Z GET /post ::ffff:127.0.0.1
+[2016-12-06 18:17:45.693] [INFO] cheese - Render view posts undefined
+[2016-12-06 18:17:45.697] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:20:32.445] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:20:35.197] [INFO] cheese - Started 2016-12-06T10:20:35.196Z GET /post ::ffff:127.0.0.1
+[2016-12-06 18:20:35.248] [INFO] cheese - Render view posts undefined
+[2016-12-06 18:20:35.253] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:26:11.437] [INFO] cheese - Started 2016-12-06T10:26:11.437Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:26:11.452] [INFO] cheese - Completed 404 undefined
+[2016-12-06 18:26:25.913] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:26:29.703] [INFO] cheese - Started 2016-12-06T10:26:29.702Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:26:29.745] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:26:29.751] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:27:23.856] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:27:45.083] [INFO] cheese - Started 2016-12-06T10:27:45.082Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:27:45.138] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:27:45.141] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:38:17.160] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:38:25.167] [INFO] cheese - Started 2016-12-06T10:38:25.166Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:38:25.222] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:38:25.227] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:39:16.151] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:39:16.960] [INFO] cheese - Started 2016-12-06T10:39:16.959Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:39:16.995] [INFO] cheese - Render view index undefined
+[2016-12-06 18:39:16.998] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:39:19.717] [INFO] cheese - Started 2016-12-06T10:39:19.717Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:39:19.732] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:39:19.735] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:41:34.408] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:41:42.869] [INFO] cheese - Started 2016-12-06T10:41:42.867Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:41:42.901] [INFO] cheese - Render view index undefined
+[2016-12-06 18:41:42.928] [INFO] cheese - Completed 500 undefined
+[2016-12-06 18:42:03.528] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:42:05.840] [INFO] cheese - Started 2016-12-06T10:42:05.839Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:42:05.898] [INFO] cheese - Render view index undefined
+[2016-12-06 18:42:05.902] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:42:16.072] [INFO] cheese - Started 2016-12-06T10:42:16.072Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:42:16.085] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:42:16.088] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:44:13.619] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:44:15.625] [INFO] cheese - Started 2016-12-06T10:44:15.624Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:44:15.681] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:44:15.707] [INFO] cheese - Started 2016-12-06T10:44:15.707Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:44:15.724] [INFO] cheese - Render view login undefined
+[2016-12-06 18:44:15.725] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:44:19.772] [INFO] cheese - Started 2016-12-06T10:44:19.772Z POST /login ::ffff:127.0.0.1
+[2016-12-06 18:44:19.809] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"name":"admin"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:44:20.130] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:44:20.137] [INFO] cheese - Started 2016-12-06T10:44:20.137Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:44:20.147] [INFO] cheese - Render view index undefined
+[2016-12-06 18:44:20.149] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:44:21.620] [INFO] cheese - Started 2016-12-06T10:44:21.620Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:44:21.626] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:44:21.634] [INFO] cheese - Started 2016-12-06T10:44:21.634Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:44:21.643] [INFO] cheese - Render view login undefined
+[2016-12-06 18:44:21.645] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:45:20.647] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:45:23.609] [INFO] cheese - Started 2016-12-06T10:45:23.608Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:45:23.648] [INFO] cheese - Render view login undefined
+[2016-12-06 18:45:23.653] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:45:28.784] [INFO] cheese - Started 2016-12-06T10:45:28.784Z POST /login ::ffff:127.0.0.1
+[2016-12-06 18:45:28.826] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"name":"admin"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:45:29.153] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:45:29.230] [INFO] cheese - Started 2016-12-06T10:45:29.229Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:45:29.244] [INFO] cheese - Render view index undefined
+[2016-12-06 18:45:29.246] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:45:33.000] [INFO] cheese - Started 2016-12-06T10:45:33.000Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:46:20.769] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:46:27.511] [INFO] cheese - Started 2016-12-06T10:46:27.509Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:46:27.576] [INFO] cheese - Render view index undefined
+[2016-12-06 18:46:27.580] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:46:29.666] [INFO] cheese - Started 2016-12-06T10:46:29.666Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:46:50.769] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:46:50.798] [INFO] cheese - Started 2016-12-06T10:46:50.797Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:46:50.876] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:46:50.889] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:46:52.305] [INFO] cheese - Started 2016-12-06T10:46:52.305Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:46:52.336] [INFO] cheese - Render view index undefined
+[2016-12-06 18:46:52.337] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:46:53.654] [INFO] cheese - Started 2016-12-06T10:46:53.654Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:46:53.663] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:46:53.665] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:46:57.384] [INFO] cheese - Started 2016-12-06T10:46:57.384Z GET /logout ::ffff:127.0.0.1
+[2016-12-06 18:46:57.412] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:46:57.422] [INFO] cheese - Started 2016-12-06T10:46:57.422Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:46:57.431] [INFO] cheese - Render view index undefined
+[2016-12-06 18:46:57.432] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:47:04.642] [INFO] cheese - Started 2016-12-06T10:47:04.642Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:47:04.647] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:47:04.663] [INFO] cheese - Started 2016-12-06T10:47:04.663Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:47:04.672] [INFO] cheese - Render view login undefined
+[2016-12-06 18:47:04.684] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:47:06.793] [INFO] cheese - Started 2016-12-06T10:47:06.792Z POST /login ::ffff:127.0.0.1
+[2016-12-06 18:47:06.832] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"name":"admin"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:47:07.140] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:47:07.147] [INFO] cheese - Started 2016-12-06T10:47:07.147Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:47:07.153] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"_id":"58462f66765c7c0c32c4b106"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:47:07.161] [INFO] cheese - Render view index undefined
+[2016-12-06 18:47:07.163] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:47:08.383] [INFO] cheese - Started 2016-12-06T10:47:08.383Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:47:08.409] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:47:08.416] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:47:16.184] [INFO] cheese - Started 2016-12-06T10:47:16.184Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:47:16.192] [INFO] cheese - Render view index undefined
+[2016-12-06 18:47:16.193] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:47:24.104] [INFO] cheese - Started 2016-12-06T10:47:24.104Z GET /logout ::ffff:127.0.0.1
+[2016-12-06 18:47:24.109] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:47:24.120] [INFO] cheese - Started 2016-12-06T10:47:24.120Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:47:24.128] [INFO] cheese - Render view index undefined
+[2016-12-06 18:47:24.129] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:48:15.020] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:48:17.666] [INFO] cheese - Started 2016-12-06T10:48:17.665Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:48:17.718] [INFO] cheese - Render view index undefined
+[2016-12-06 18:48:17.721] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:48:20.950] [INFO] cheese - Started 2016-12-06T10:48:20.950Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:48:20.966] [INFO] cheese - Render view index undefined
+[2016-12-06 18:48:20.967] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:49:01.384] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:49:03.871] [INFO] cheese - Started 2016-12-06T10:49:03.870Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:49:03.912] [INFO] cheese - Render view index undefined
+[2016-12-06 18:49:03.914] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:49:08.281] [INFO] cheese - Started 2016-12-06T10:49:08.280Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:49:08.297] [INFO] cheese - Render view login undefined
+[2016-12-06 18:49:08.298] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:49:09.802] [INFO] cheese - Started 2016-12-06T10:49:09.802Z POST /login ::ffff:127.0.0.1
+[2016-12-06 18:49:09.845] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"name":"admin"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:49:10.182] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:49:10.190] [INFO] cheese - Started 2016-12-06T10:49:10.190Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:49:10.197] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"_id":"58462f66765c7c0c32c4b106"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:49:10.211] [INFO] cheese - Render view index undefined
+[2016-12-06 18:49:10.217] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:49:52.005] [INFO] cheese - Started 2016-12-06T10:49:52.005Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:49:52.016] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:49:52.018] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:50:07.052] [INFO] cheese - Started 2016-12-06T10:50:07.052Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:50:07.062] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:50:07.064] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:50:14.118] [INFO] cheese - Started 2016-12-06T10:50:14.118Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:50:14.127] [INFO] cheese - Render view index undefined
+[2016-12-06 18:50:14.129] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:52:51.304] [INFO] cheese - Started 2016-12-06T10:52:51.304Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:52:51.313] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:52:51.317] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:53:13.036] [INFO] cheese - Started 2016-12-06T10:53:13.036Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:53:13.044] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:53:13.047] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:53:15.690] [INFO] cheese - Started 2016-12-06T10:53:15.690Z GET /logout ::ffff:127.0.0.1
+[2016-12-06 18:53:15.699] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:53:15.707] [INFO] cheese - Started 2016-12-06T10:53:15.707Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:53:15.713] [INFO] cheese - Render view index undefined
+[2016-12-06 18:53:15.716] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:53:21.948] [INFO] cheese - Started 2016-12-06T10:53:21.948Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:53:21.956] [INFO] cheese - Render view login undefined
+[2016-12-06 18:53:21.958] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:53:24.958] [INFO] cheese - Started 2016-12-06T10:53:24.958Z GET /reg ::ffff:127.0.0.1
+[2016-12-06 18:53:24.965] [INFO] cheese - Render view reg undefined
+[2016-12-06 18:53:24.966] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:53:27.664] [INFO] cheese - Started 2016-12-06T10:53:27.663Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:53:27.672] [INFO] cheese - Render view login undefined
+[2016-12-06 18:53:27.673] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:53:32.589] [INFO] cheese - Started 2016-12-06T10:53:32.588Z GET /reg ::ffff:127.0.0.1
+[2016-12-06 18:53:32.597] [INFO] cheese - Render view reg undefined
+[2016-12-06 18:53:32.598] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:55:17.208] [INFO] cheese - Started 2016-12-06T10:55:17.208Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:55:17.218] [INFO] cheese - Render view login undefined
+[2016-12-06 18:55:17.219] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:55:18.782] [INFO] cheese - Started 2016-12-06T10:55:18.782Z POST /login ::ffff:127.0.0.1
+[2016-12-06 18:55:18.790] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"name":"admin"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:55:19.084] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:55:19.091] [INFO] cheese - Started 2016-12-06T10:55:19.091Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:55:19.096] [DEBUG] cheese - undefined 'users.undefined {"conditions":{"_id":"58462f66765c7c0c32c4b106"},"options":{},"collectionName":"users"} '
+[2016-12-06 18:55:19.103] [INFO] cheese - Render view index undefined
+[2016-12-06 18:55:19.105] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:56:33.938] [INFO] cheese - Started 2016-12-06T10:56:33.938Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:56:33.949] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:56:33.950] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:56:36.387] [INFO] cheese - Started 2016-12-06T10:56:36.387Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:56:36.400] [INFO] cheese - Render view index undefined
+[2016-12-06 18:56:36.406] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:56:37.992] [INFO] cheese - Started 2016-12-06T10:56:37.992Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:56:38.003] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:56:38.005] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:56:44.539] [INFO] cheese - Started 2016-12-06T10:56:44.539Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:56:44.550] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:56:44.551] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:56:45.957] [INFO] cheese - Started 2016-12-06T10:56:45.957Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:56:45.970] [INFO] cheese - Render view index undefined
+[2016-12-06 18:56:45.971] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:56:46.823] [INFO] cheese - Started 2016-12-06T10:56:46.823Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:56:46.832] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:56:46.833] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:56:47.832] [INFO] cheese - Started 2016-12-06T10:56:47.832Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:56:47.842] [INFO] cheese - Render view index undefined
+[2016-12-06 18:56:47.843] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:57:25.874] [INFO] cheese - Started 2016-12-06T10:57:25.874Z GET /personal ::ffff:127.0.0.1
+[2016-12-06 18:57:25.885] [INFO] cheese - Render view personal undefined
+[2016-12-06 18:57:25.887] [INFO] cheese - Completed 304 undefined
+[2016-12-06 18:57:31.128] [INFO] cheese - Started 2016-12-06T10:57:31.127Z GET /logout ::ffff:127.0.0.1
+[2016-12-06 18:57:31.135] [INFO] cheese - Completed 302 undefined
+[2016-12-06 18:57:31.142] [INFO] cheese - Started 2016-12-06T10:57:31.142Z GET / ::ffff:127.0.0.1
+[2016-12-06 18:57:31.148] [INFO] cheese - Render view index undefined
+[2016-12-06 18:57:31.152] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:57:32.868] [INFO] cheese - Started 2016-12-06T10:57:32.867Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:57:32.873] [INFO] cheese - Render view login undefined
+[2016-12-06 18:57:32.874] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:59:12.937] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:59:15.307] [INFO] cheese - Started 2016-12-06T10:59:15.305Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:59:15.348] [INFO] cheese - Render view login undefined
+[2016-12-06 18:59:15.350] [INFO] cheese - Completed 200 undefined
+[2016-12-06 18:59:37.958] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 18:59:40.511] [INFO] cheese - Started 2016-12-06T10:59:40.510Z GET /login ::ffff:127.0.0.1
+[2016-12-06 18:59:40.552] [INFO] cheese - Render view login undefined
+[2016-12-06 18:59:40.554] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:01:11.114] [INFO] cheese - Started 2016-12-06T11:01:11.113Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:01:11.124] [INFO] cheese - Render view login undefined
+[2016-12-06 19:01:11.125] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:01:18.637] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:01:20.804] [INFO] cheese - Started 2016-12-06T11:01:20.803Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:01:20.837] [INFO] cheese - Render view login undefined
+[2016-12-06 19:01:20.850] [INFO] cheese - Completed 304 undefined
+[2016-12-06 19:01:21.816] [INFO] cheese - Started 2016-12-06T11:01:21.816Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:01:21.825] [INFO] cheese - Render view login undefined
+[2016-12-06 19:01:21.826] [INFO] cheese - Completed 304 undefined
+[2016-12-06 19:02:32.585] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:02:33.166] [INFO] cheese - Started 2016-12-06T11:02:33.164Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:02:33.204] [INFO] cheese - Render view login undefined
+[2016-12-06 19:02:33.206] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:02:35.657] [INFO] cheese - Started 2016-12-06T11:02:35.656Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:02:35.667] [INFO] cheese - Render view login undefined
+[2016-12-06 19:02:35.668] [INFO] cheese - Completed 304 undefined
+[2016-12-06 19:02:50.803] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:02:51.772] [INFO] cheese - Started 2016-12-06T11:02:51.771Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:02:51.801] [INFO] cheese - Render view login undefined
+[2016-12-06 19:02:51.803] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:03:49.448] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:03:51.204] [INFO] cheese - Started 2016-12-06T11:03:51.203Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:03:51.241] [INFO] cheese - Render view login undefined
+[2016-12-06 19:03:51.247] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:04:15.933] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:04:17.300] [INFO] cheese - Started 2016-12-06T11:04:17.298Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:04:17.330] [INFO] cheese - Render view login undefined
+[2016-12-06 19:04:17.333] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:04:58.349] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:04:59.755] [INFO] cheese - Started 2016-12-06T11:04:59.754Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:04:59.794] [INFO] cheese - Render view login undefined
+[2016-12-06 19:04:59.796] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:05:21.246] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:05:23.803] [INFO] cheese - Started 2016-12-06T11:05:23.801Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:05:23.831] [INFO] cheese - Render view login undefined
+[2016-12-06 19:05:23.834] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:06:36.838] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:06:40.521] [INFO] cheese - Started 2016-12-06T11:06:40.520Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:06:40.551] [INFO] cheese - Render view login undefined
+[2016-12-06 19:06:40.553] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:06:44.515] [INFO] cheese - Started 2016-12-06T11:06:44.515Z GET /resetpwd ::ffff:127.0.0.1
+[2016-12-06 19:06:44.522] [INFO] cheese - Completed 404 undefined
+[2016-12-06 19:07:22.492] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:07:24.934] [INFO] cheese - Started 2016-12-06T11:07:24.933Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:07:24.985] [INFO] cheese - Render view login undefined
+[2016-12-06 19:07:24.986] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:07:38.791] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:07:40.561] [INFO] cheese - Started 2016-12-06T11:07:40.560Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:07:40.596] [INFO] cheese - Render view login undefined
+[2016-12-06 19:07:40.597] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:11:13.451] [INFO] cheese - project is listening on port: 5000
+[2016-12-06 19:11:17.272] [INFO] cheese - Started 2016-12-06T11:11:17.271Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:11:17.313] [INFO] cheese - Render view login undefined
+[2016-12-06 19:11:17.314] [INFO] cheese - Completed 304 undefined
+[2016-12-06 19:11:19.335] [INFO] cheese - Started 2016-12-06T11:11:19.334Z GET /resetpwd ::ffff:127.0.0.1
+[2016-12-06 19:11:19.345] [INFO] cheese - Render view resetpwd undefined
+[2016-12-06 19:11:19.346] [INFO] cheese - Completed 200 undefined
+[2016-12-06 19:11:29.528] [INFO] cheese - Started 2016-12-06T11:11:29.528Z GET /login ::ffff:127.0.0.1
+[2016-12-06 19:11:29.541] [INFO] cheese - Render view login undefined
+[2016-12-06 19:11:29.545] [INFO] cheese - Completed 304 undefined
+[2016-12-06 19:11:30.849] [INFO] cheese - Started 2016-12-06T11:11:30.849Z GET /resetpwd ::ffff:127.0.0.1
+[2016-12-06 19:11:30.856] [INFO] cheese - Render view resetpwd undefined
+[2016-12-06 19:11:30.857] [INFO] cheese - Completed 304 undefined

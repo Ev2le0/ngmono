@@ -1,4 +1,13 @@
 <form method="post" action="/post" class="well form-inline center" style="text-align:center;">
-    <input type="text" class="span8" name="post">
-    <button type="submit" class="btn btn-success"><i class="icon-comment icon-white"> </i>发言</button>
+    <fieldset>
+        <legend>新博客</legend> <label>标题：</label><input type="text" class="span8" row="30" name="title">
+    </fieldset>
+    <br/>
+    <fieldset>
+        <label>内容：</label><textarea class="span8" rows="20" name="content" ></textarea>
+    </fieldset>
+    <br/>
+    <fieldset>
+       <button type="submit" class="btn btn-success">提交</button>
+    </fieldset>
 </form>
