@@ -10,7 +10,7 @@ var config = {
     name:'ngmono',
     description:'a projtct use angularJS mongoDB nodeJS',
     // mongodb 配置
-    db: 'mongodb://127.0.0.1/test',
+    db: 'mongodb://localhost/ngmono_test',
     //redis配置
     redis_host:'127.0.0.1',
     redis_port:6379,
@@ -18,6 +18,7 @@ var config = {
     redis_passwrod:'',
     //程序运行端口
     port:5000,
-    session_secret:'ngmono',
+    session_secret:'ngmono_session',
+    auth_cookie_name: 'ngmono_cookie',
 };
 module.exports = config;

@@ -1,14 +1,9 @@
 var mongoose = require('../common/mongoose');
-var config = require('../config');
-var logger = require('../common/logger');
 
-//mongoose.connect(config.db,{
-//    server:{poolSize:20}
-//},function(err){
-//    if(err){
-//        logger.error('connect to %s error',config.db,err.message);
-//        process.exit(1);
-//    }
-//});
+//models
 require('./user');
+require('./post');
+require('./reply');
 exports.User = mongoose.model('User');
+exports.Post = mongoose.model('Post');
+exports.Reply = mongoose.model('Reply');

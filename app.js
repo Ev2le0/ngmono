@@ -18,15 +18,14 @@ var errorhandler = require('errorhandler');
 var requestLog = require('./middlewares/request_log');
 var renderMiddleware = require('./middlewares/render');
 var logger = require('./common/logger');
-
 var staticDir = path.join(__dirname,'public');
 
 var app = express();
 
-app.set('views',path.join(__dirname,'views'));
-app.set('view engine','html');
-app.engine('html',require('ejs-mate'));
-app.locals_layoutFile = 'layout.html';
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'html');
+app.engine('html', require('ejs-mate'));
+app.locals._layoutFile = 'layout.html';
 app.enable('trust proxy');
 
 //Request logger 请求时间
@@ -61,26 +60,26 @@ app.use(session({
 
 // set static, dynamic helpers
 // assets
-var assets = {};
-_.extend(app.locals, {
-    config: config,
-    Loader: Loader,
-    assets: assets
-});
-
-app.use(errorPageMiddleware.errorPage);
+//var assets = {};
+//_.extend(app.locals, {
+//    config: config,
+//    //Loader: Loader,
+//    assets: assets
+//});
+//
+//app.use(errorPageMiddleware.errorPage);
 //_.extend(app.locals,require('./common/render_helper'));
 app.use('/',router);
-
-//error handler
-if(config.debug){
-    app.use(errorhandler());
-}else{
-    app.use(function(err,req,res,next){
-        logger.error(err);
-        return res.status(500).send('500 status');
-    });
-}
+//
+////error handler
+//if(config.debug){
+//    app.use(errorhandler());
+//}else{
+//    app.use(function(err,req,res,next){
+//        logger.error(err);
+//        return res.status(500).send('500 status');
+//    });
+//}
 
 if(!module.parent){
     app.listen(5000,function(){

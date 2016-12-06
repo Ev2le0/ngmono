@@ -4,17 +4,17 @@ var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
     name:{type:String},
-    loginname:{type:String},
     pass:{type:String},
-    email:{type:String},
+    post_count: { type: Number, default: 0 },
+    reply_count: { type: Number, default: 0 },
+    is_admin: { type:Boolean,default:false },
     create_at: { type: Date, default: Date.now },
     update_at: { type: Date, default: Date.now },
 });
 
 UserSchema.plugin(BaseModel);
 
-UserSchema.index({loginname:1},{unique:true});
-UserSchema.index({email: 1}, {unique: true});
+UserSchema.index({name:1},{unique:true});
 
 UserSchema.pre('save',function(next){
     var now = new Date();

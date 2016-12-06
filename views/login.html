@@ -1,7 +1,14 @@
+
 <form class="form-horizontal" method="post">
 <fieldset>
     <legend>用户登录</legend>
     <div class="control-group">
+        <% if(typeof(error) !== 'undefined' && error){ %>
+        <div class="alert alert-error">
+            <a class="close" data-dismiss="alert" href="#">&times;</a>
+            <strong><%= error %></strong>
+        </div>
+        <% } %>
         <label class="control-label" for="username">用户名</label>
         <div class="controls">
             <input type="text" class="input-xlarge" id="username" name="username">
@@ -11,7 +18,7 @@
     <div class="control-group">
         <label class="control-label" for="password">密码</label>
         <div class="controls">
-            <input type="text" class="input-xlarge" id="password" name="password">
+            <input type="password" class="input-xlarge" id="password" name="password">
         </div>
     </div>
      <div class="form-actions">

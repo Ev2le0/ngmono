@@ -1,7 +1,18 @@
-<form class="form-horizontal" method="post">
+<form class="form-horizontal" method="post" action="/reg">
 <fieldset>
     <legend>用户注册</legend>
     <div class="control-group">
+        <% if (typeof(error) !== 'undefined' && error) { %>
+        <div class="alert alert-error">
+            <a class="close" data-dismiss="alert" href="#">&times;</a>
+            <strong><%= error %></strong>
+        </div>
+        <% } %>
+        <% if (typeof(success) !== 'undefined' && success) { %>
+        <div class="alert alert-success">
+            <strong><%= success %></strong>
+        </div>
+        <% } %>
         <label class="control-label" for="username">用户名</label>
         <div class="controls">
             <input type="text" class="input-xlarge" id="username" name="username">
@@ -11,13 +22,13 @@
     <div class="control-group">
         <label class="control-label" for="password">密码</label>
         <div class="controls">
-            <input type="text" class="input-xlarge" id="password" name="password">
+            <input type="password" class="input-xlarge" id="password" name="pass" placeholder="请输入密码">
         </div>
     </div>
     <div class="control-group">
          <label class="control-label" for="password-repeat">确认密码</label>
          <div class="controls">
-             <input type="text" class="input-xlarge" id="password-repeat" name="password-repeat">
+             <input type="password" class="input-xlarge" id="password-repeat" name="repass" placeholder="请输入密码">
          </div>
      </div>
      <div class="form-actions">
